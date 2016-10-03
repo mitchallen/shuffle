@@ -12,8 +12,12 @@ var request = require('supertest'),
 
 describe('module smoke test', function() {
 
+    var _module = null;
+
     before(function(done) {
         // Call before all tests
+        delete require.cache[require.resolve(modulePath)];
+        _module = require(modulePath);
         done();
     });
 
@@ -32,15 +36,32 @@ describe('module smoke test', function() {
         done();
     });
 
-    it('module should callback OK', function(done) {
-        delete require.cache[require.resolve(modulePath)];
-        let options = {};
-        require(modulePath)(options, function(err,data) {
-            should.not.exist(err);
-            should.exist(data);
-            should.exist(data.status)
-            data.status.should.eql("OK");
-            done();
-        });
+    it('module should exist', function(done) {
+        should.exist(_module);
+        done();
+    });
+
+    it('create method with no spec should return null', function(done) {
+        var obj = _module.create();
+        should.not.exist(obj);
+        done();
+    });
+
+    it('create method with valid array parameters should return object', function(done) {
+        var list = [1, 2, 3, 4, 5];
+        var obj = _module.create({ array: list });
+        should.exist(obj);
+        done();
+    });
+
+    it('shuffle method with valid array parameters should return shuffled array', function(done) {
+        var list = [1, 2, 3, 4, 5];
+        var obj = _module.create({ array: list });
+        should.exist(obj);
+        var shuffled = obj.shuffle();
+        should.exist(shuffled);
+        shuffled.should.not.eql(list);
+        shuffled.length.should.eql(list.length);
+        done();
     });
 });
