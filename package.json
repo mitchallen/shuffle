@@ -1,7 +1,7 @@
 {
   "name": "@mitchallen/shuffle",
   "version": "0.1.0",
-  "description": "",
+  "description": "Uses Fisher-Yates to shuffle an array",
   "main": "index.js",
   "scripts": {
     "//": "To use: npm start (useful if not a module)",

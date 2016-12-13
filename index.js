@@ -28,5 +28,5 @@ module.exports.create = function (spec) {
             }
             return _array;
         }
-    }
+    };
 };
