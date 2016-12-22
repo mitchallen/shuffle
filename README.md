@@ -13,7 +13,7 @@ You must use __npm__ __2.7.0__ or higher because of the scoped package name.
   
 * * *
 
-## Usage
+## Usage 
 
     "use strict";
     
@@ -26,6 +26,53 @@ You must use __npm__ __2.7.0__ or higher because of the scoped package name.
     var shuffled = shuffler.shuffle();
     
     console.log(shuffled);
+    
+## Browser Usage:
+
+You can reference a minimized client version inside an HTML script tag using one of these URL's:
+
+* https://cdn.rawgit.com/mitchallen/shuffle/master/dist/shuffle.min.js
+* https://unpkg.com/@mitchallen/shuffle@0.1.1/dist/shuffle.min.js
+
+The __rawgit.com__ URL will pull the latest from master in GitHub.
+
+The __unpkg.com__ URL will pull based on the version in npmjs.com
+.
+See http://rawgit.com and https://unpkg.com for other ways to retrieve the file.
+
+The factory function can be retrieved from __window.SHUFFLE__:
+
+    var factory = window.SHUFFLE;
+    var list = [1, 2, 3, 4, 5];
+    var obj = factory.create({ array: list });
+    var shuffled = obj.shuffle();
+
+Example:
+
+    <!DOCTYPE html>
+    <html>
+      <head>
+    <meta charset="utf-8">
+        <title>Shuffle Example</title>
+        <meta name="description" content="Shuffle Example">
+        <!-- either cdn should work -->
+        <!--
+        <script src="https://cdn.rawgit.com/mitchallen/shuffle/master/dist/shuffle.min.js"></script>
+        -->
+        <script src="https://unpkg.com/@mitchallen/shuffle@0.1.1/dist/shuffle.min.js"></script>
+        <script>
+          var factory = window.SHUFFLE;
+          var list = [1, 2, 3, 4, 5];
+          var obj = factory.create({ array: list });
+          var shuffled = obj.shuffle();
+          console.log(shuffled); 
+        </script>
+      </head>
+      <body>
+        <h1>Shuffle Example</h1>
+        <p>See the JavaScript console for results.</p>
+      </body>
+    </html>
     
 * * * 
    
@@ -84,6 +131,10 @@ Add unit tests for any new or changed functionality. Lint and test your code.
 * * *
 
 ## Version History
+
+#### Version 0.1.2
+
+* added client example
 
 #### Version 0.1.1
 
