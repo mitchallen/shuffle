@@ -3,11 +3,12 @@
     Author: Mitch Allen
 */
 
+/*jshint node: true */
 /*jshint esversion: 6 */
 
 "use strict";
 
-module.exports.create = function (spec) {
+module.exports.create = (spec) => {
     if(!spec) {
         return null;
     }
