@@ -36,7 +36,7 @@ You can reference a minimized client version inside an HTML script tag using one
 
 Adjust for the version that you wish to use.
 
-The __rawgit.com__ URL will pull the latest from master in GitHub.
+The __rawgit.com__ URL will pull based on the version from GitHub.
 
 The __unpkg.com__ URL will pull based on the version in npmjs.com
 .
