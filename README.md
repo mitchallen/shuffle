@@ -31,8 +31,8 @@ You must use __npm__ __2.7.0__ or higher because of the scoped package name.
 
 You can reference a minimized client version inside an HTML script tag using one of these URL's:
 
-* https://cdn.rawgit.com/mitchallen/shuffle/v0.1.2/dist/shuffle.min.js
-* https://unpkg.com/@mitchallen/shuffle@0.1.2/dist/shuffle.min.js
+* https://cdn.rawgit.com/mitchallen/shuffle/v0.1.4/dist/shuffle.min.js
+* https://unpkg.com/@mitchallen/shuffle@0.1.4/dist/shuffle.min.js
 
 Adjust for the version that you wish to use.
 
