@@ -31,8 +31,10 @@ You must use __npm__ __2.7.0__ or higher because of the scoped package name.
 
 You can reference a minimized client version inside an HTML script tag using one of these URL's:
 
-* https://cdn.rawgit.com/mitchallen/shuffle/master/dist/shuffle.min.js
-* https://unpkg.com/@mitchallen/shuffle@0.1.1/dist/shuffle.min.js
+* https://cdn.rawgit.com/mitchallen/shuffle/v0.1.2/dist/shuffle.min.js
+* https://unpkg.com/@mitchallen/shuffle@0.1.2/dist/shuffle.min.js
+
+Adjust for the version that you wish to use.
 
 The __rawgit.com__ URL will pull the latest from master in GitHub.
 
@@ -57,7 +59,7 @@ Example:
         <meta name="description" content="Shuffle Example">
         <!-- either cdn should work -->
         <!--
-        <script src="https://cdn.rawgit.com/mitchallen/shuffle/master/dist/shuffle.min.js"></script>
+        <script src="https://cdn.rawgit.com/mitchallen/shuffle/v0.1.2/dist/shuffle.min.js"></script>
         -->
         <script src="https://unpkg.com/@mitchallen/shuffle@0.1.1/dist/shuffle.min.js"></script>
         <script>
@@ -131,6 +133,10 @@ Add unit tests for any new or changed functionality. Lint and test your code.
 * * *
 
 ## Version History
+
+#### Version 0.1.3
+
+* updated CDN URL
 
 #### Version 0.1.2
 
