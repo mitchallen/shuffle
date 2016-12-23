@@ -59,11 +59,11 @@ Example:
         <meta name="description" content="Shuffle Example">
         <!-- either cdn should work -->
         <!--
-        <script src="https://cdn.rawgit.com/mitchallen/shuffle/v0.1.2/dist/shuffle.min.js"></script>
+        <script src="https://cdn.rawgit.com/mitchallen/shuffle/v0.1.4/dist/shuffle.min.js"></script>
         -->
-        <script src="https://unpkg.com/@mitchallen/shuffle@0.1.2/dist/shuffle.min.js"></script>
+        <script src="https://unpkg.com/@mitchallen/shuffle@0.1.4/dist/shuffle.min.js"></script>
         <script>
-          var factory = window.SHUFFLE;
+          var factory = window.MitchAllen.Shuffle;
           var list = [1, 2, 3, 4, 5];
           var obj = factory.create({ array: list });
           var shuffled = obj.shuffle();
@@ -133,6 +133,10 @@ Add unit tests for any new or changed functionality. Lint and test your code.
 * * *
 
 ## Version History
+
+#### Version 0.1.4
+
+* Added namespace requirement for browser: changed window.SHUFFLE to window.MitchAllen.Shuffle
 
 #### Version 0.1.3
 

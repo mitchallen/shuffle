@@ -45,9 +45,10 @@ module.exports = function (grunt) {
             dist: {
                 options: {
                     browserifyOptions: {
-                        standalone: 'SHUFFLE'
+                        standalone: 'MitchAllen.Shuffle'
                     },
-                    transform: [['babelify', {presets: ['es2015']}]]
+                    transform: [['babelify', {presets: ['es2015']}]],
+                    plugin: [[ "browserify-derequire" ]]
                 },
                 files: {
                    // if the source file has an extension of es6 then
