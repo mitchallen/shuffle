@@ -61,7 +61,7 @@ Example:
         <!--
         <script src="https://cdn.rawgit.com/mitchallen/shuffle/v0.1.2/dist/shuffle.min.js"></script>
         -->
-        <script src="https://unpkg.com/@mitchallen/shuffle@0.1.1/dist/shuffle.min.js"></script>
+        <script src="https://unpkg.com/@mitchallen/shuffle@0.1.2/dist/shuffle.min.js"></script>
         <script>
           var factory = window.SHUFFLE;
           var list = [1, 2, 3, 4, 5];
