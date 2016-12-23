@@ -42,9 +42,9 @@ The __unpkg.com__ URL will pull based on the version in npmjs.com.
 
 See http://rawgit.com and https://unpkg.com for other ways to retrieve the file.
 
-The factory function can be retrieved from __window.SHUFFLE__:
+The factory function can be retrieved from __window.MitchAllen.Shuffle__:
 
-    var factory = window.SHUFFLE;
+    var factory = window.MitchAllen.Shuffle;
     var list = [1, 2, 3, 4, 5];
     var obj = factory.create({ array: list });
     var shuffled = obj.shuffle();
