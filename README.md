@@ -38,8 +38,8 @@ Adjust for the version that you wish to use.
 
 The __rawgit.com__ URL will pull based on the version from GitHub.
 
-The __unpkg.com__ URL will pull based on the version in npmjs.com
-.
+The __unpkg.com__ URL will pull based on the version in npmjs.com.
+
 See http://rawgit.com and https://unpkg.com for other ways to retrieve the file.
 
 The factory function can be retrieved from __window.SHUFFLE__:
