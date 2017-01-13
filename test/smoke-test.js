@@ -47,6 +47,12 @@ describe('module smoke test', function() {
         done();
     });
 
+    it('create method with no spec.array should return null', function(done) {
+        var obj = _module.create( {} );
+        should.not.exist(obj);
+        done();
+    });
+
     it('create method with valid array parameters should return object', function(done) {
         var list = [1, 2, 3, 4, 5];
         var obj = _module.create({ array: list });

@@ -156,6 +156,10 @@ Add unit tests for any new or changed functionality. Lint and test your code.
 
 ## Version History
 
+#### Version 0.1.9
+
+* updated test cases for 100% code coverage
+
 #### Version 0.1.8
 
 * integrated travis-ci and codecov.io
