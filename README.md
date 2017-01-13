@@ -3,6 +3,28 @@
 ==
 Uses Fisher-Yates to shuffle an array.
 --
+
+<p align="left">
+
+  <a href="https://travis-ci.org/mitchallen/shuffle">
+    <img src="https://img.shields.io/travis/mitchallen/shuffle.svg?style=flat-square" alt="Version">
+  </a>
+  
+  <a href="https://codecov.io/gh/mitchallen/shuffle">
+    <img src="https://codecov.io/gh/mitchallen/shuffle/branch/master/graph/badge.svg" alt="Coverage Status">
+  </a>
+  
+  <a href="https://npmjs.org/package/@mitchallen/shuffle">
+    <img src="http://img.shields.io/npm/v/@mitchallen/shuffle.svg?style=flat-square" alt="Version">
+  </a>
+  
+  <a href="https://npmjs.org/package/@mitchallen/shuffle">
+    <img src="https://img.shields.io/github/license/mitchallen/shuffle.svg">
+  </a>
+  
+</p>
+
+
 * * *
 ## Installation
 
@@ -133,6 +155,10 @@ Add unit tests for any new or changed functionality. Lint and test your code.
 * * *
 
 ## Version History
+
+#### Version 0.1.8
+
+* integrated travis-ci and codecov.io
 
 #### Version 0.1.4
 
