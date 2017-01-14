@@ -156,6 +156,10 @@ Add unit tests for any new or changed functionality. Lint and test your code.
 
 ## Version History
 
+#### Version 0.1.10
+
+* updated .npmignore
+
 #### Version 0.1.9
 
 * updated test cases for 100% code coverage
