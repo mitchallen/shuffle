@@ -6,6 +6,10 @@ Uses Fisher-Yates to shuffle an array.
 
 <p align="left">
 
+  <a href="https://github.com/mitchallen/shuffle/actions/workflows/ci.yml">
+    <img src="https://github.com/mitchallen/shuffle/actions/workflows/ci.yml/badge.svg" alt="Build Status">
+  </a>
+  
   <a href="https://codecov.io/gh/mitchallen/shuffle">
     <img src="https://codecov.io/gh/mitchallen/shuffle/branch/master/graph/badge.svg" alt="Coverage Status">
   </a>
