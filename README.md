@@ -6,19 +6,15 @@ Uses Fisher-Yates to shuffle an array.
 
 <p align="left">
 
-  <a href="https://travis-ci.org/mitchallen/shuffle">
-    <img src="https://img.shields.io/travis/mitchallen/shuffle.svg?style=flat-square" alt="Version">
-  </a>
-  
   <a href="https://codecov.io/gh/mitchallen/shuffle">
     <img src="https://codecov.io/gh/mitchallen/shuffle/branch/master/graph/badge.svg" alt="Coverage Status">
   </a>
   
-  <a href="https://npmjs.org/package/@mitchallen/shuffle">
-    <img src="http://img.shields.io/npm/v/@mitchallen/shuffle.svg?style=flat-square" alt="Version">
+  <a href="https://github.com/mitchallen/shuffle/pkgs/npm/shuffle">
+    <img src="https://img.shields.io/github/v/tag/mitchallen/shuffle.svg?label=version" alt="Version">
   </a>
   
-  <a href="https://npmjs.org/package/@mitchallen/shuffle">
+  <a href="https://github.com/mitchallen/shuffle/blob/master/LICENSE">
     <img src="https://img.shields.io/github/license/mitchallen/shuffle.svg">
   </a>
   
@@ -68,18 +64,12 @@ package is public, so you need a GitHub personal access token with the
     
 ## Browser Usage:
 
-You can reference a minimized client version inside an HTML script tag using one of these URL's:
+You can reference a minimized client version inside an HTML script tag using
+the jsDelivr CDN, which serves the file from GitHub by tag:
 
-* https://cdn.rawgit.com/mitchallen/shuffle/v0.1.4/dist/shuffle.min.js
-* https://unpkg.com/@mitchallen/shuffle@0.1.4/dist/shuffle.min.js
+* https://cdn.jsdelivr.net/gh/mitchallen/shuffle@v0.1.10/dist/shuffle.min.js
 
 Adjust for the version that you wish to use.
-
-The __rawgit.com__ URL will pull based on the version from GitHub.
-
-The __unpkg.com__ URL will pull based on the version in npmjs.com.
-
-See http://rawgit.com and https://unpkg.com for other ways to retrieve the file.
 
 The factory function can be retrieved from __window.MitchAllen.Shuffle__:
 
@@ -96,11 +86,7 @@ Example:
     <meta charset="utf-8">
         <title>Shuffle Example</title>
         <meta name="description" content="Shuffle Example">
-        <!-- either cdn should work -->
-        <!--
-        <script src="https://cdn.rawgit.com/mitchallen/shuffle/v0.1.10/dist/shuffle.min.js"></script>
-        -->
-        <script src="https://unpkg.com/@mitchallen/shuffle@0.1.10/dist/shuffle.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/gh/mitchallen/shuffle@v0.1.10/dist/shuffle.min.js"></script>
         <script>
           var factory = window.MitchAllen.Shuffle;
           var list = [1, 2, 3, 4, 5];
