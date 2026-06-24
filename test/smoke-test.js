@@ -9,7 +9,7 @@
 const { test } = require("node:test");
 const assert = require("node:assert");
 
-const shuffle = require("../dist/shuffle.cjs.js");
+const shuffle = require("../modules/index.js");
 
 test("module should exist", () => {
   assert.ok(shuffle);

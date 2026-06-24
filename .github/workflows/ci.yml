@@ -17,5 +17,12 @@ jobs:
           node-version: '24'
       - name: Install dependencies
         run: npm install
-      - name: Run tests
-        run: npm test
+      - name: Run tests with coverage
+        run: npm run coverage
+      - name: Upload coverage to Codecov
+        uses: codecov/codecov-action@v5
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }}
+          files: ./lcov.info
+          slug: mitchallen/shuffle
+          fail_ci_if_error: false
