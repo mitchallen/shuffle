@@ -3,6 +3,9 @@
   "version": "0.1.12",
   "description": "Uses Fisher-Yates to shuffle an array",
   "main": "dist/shuffle.cjs.js",
+  "files": [
+    "dist"
+  ],
   "browser": "dist/shuffle.js",
   "scripts": {
     "start": "node dist/shuffle.cjs.js",
