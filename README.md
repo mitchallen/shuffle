@@ -76,7 +76,7 @@ package is public, so you need a GitHub personal access token with the
 You can reference a minimized client version inside an HTML script tag using
 the jsDelivr CDN, which serves the file from GitHub by tag:
 
-* https://cdn.jsdelivr.net/gh/mitchallen/shuffle@v0.1.10/dist/shuffle.min.js
+* https://cdn.jsdelivr.net/gh/mitchallen/shuffle@v0.1.15/dist/shuffle.min.js
 
 Adjust for the version that you wish to use.
 
@@ -95,7 +95,7 @@ Example:
     <meta charset="utf-8">
         <title>Shuffle Example</title>
         <meta name="description" content="Shuffle Example">
-        <script src="https://cdn.jsdelivr.net/gh/mitchallen/shuffle@v0.1.10/dist/shuffle.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/gh/mitchallen/shuffle@v0.1.15/dist/shuffle.min.js"></script>
         <script>
           var factory = window.MitchAllen.Shuffle;
           var list = [1, 2, 3, 4, 5];
