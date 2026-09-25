@@ -1,3 +1,9 @@
+> **This repository is archived.** `@mitchallen/shuffle` is now developed and
+> published from the [maze-generator-v2](https://github.com/mitchallen/maze-generator-v2)
+> monorepo, in [`packages/shuffle`](https://github.com/mitchallen/maze-generator-v2/tree/main/packages/shuffle).
+> The package name and install instructions are unchanged; new versions come
+> from there.
+
 
 @mitchallen/shuffle
 ==
