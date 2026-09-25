@@ -11,14 +11,14 @@ Uses Fisher-Yates to shuffle an array.
   </a>
   
   <a href="https://codecov.io/gh/mitchallen/shuffle">
-    <img src="https://codecov.io/gh/mitchallen/shuffle/branch/master/graph/badge.svg" alt="Coverage Status">
+    <img src="https://codecov.io/gh/mitchallen/shuffle/branch/main/graph/badge.svg" alt="Coverage Status">
   </a>
   
   <a href="https://github.com/mitchallen/shuffle/pkgs/npm/shuffle">
     <img src="https://img.shields.io/github/v/tag/mitchallen/shuffle.svg?label=version" alt="Version">
   </a>
   
-  <a href="https://github.com/mitchallen/shuffle/blob/master/LICENSE">
+  <a href="https://github.com/mitchallen/shuffle/blob/main/LICENSE">
     <img src="https://img.shields.io/github/license/mitchallen/shuffle.svg">
   </a>
   
